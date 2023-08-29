@@ -14,10 +14,11 @@
 // Expected
 // 'e'
 
-const nthCharacterOfString = (a, n) => {
-    return a.charAt(n)
+const nthCharOfString = (a, n) => {
+    // return a.charAt(n - 1)
+    return a[n-1]
 }
 
-console.log(nthCharacterOfString('abcd', 1));
-console.log(nthCharacterOfString('zyxbwpl', 5));
-console.log(nthCharacterOfString('gfedcba', 3));
+console.log(nthCharOfString('abcd', 1));
+console.log(nthCharOfString('zyxbwpl', 5));
+console.log(nthCharOfString('gfedcba', 3));
