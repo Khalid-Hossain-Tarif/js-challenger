@@ -19,11 +19,11 @@
 // Expected
 // true 
 
-const myFunction = (a, b) => {
+const compareOperator = (a, b) => {
     return a === b;
 }
 
-console.log(myFunction(2, 3));
-console.log(myFunction(3, 3));
-console.log(myFunction(1, '1'));
-console.log(myFunction('10', '10'));
+console.log(compareOperator(2, 3));
+console.log(compareOperator(3, 3));
+console.log(compareOperator(1, '1'));
+console.log(compareOperator('10', '10'));
