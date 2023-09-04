@@ -15,8 +15,8 @@
 // 'e'
 
 const nthCharOfString = (a, n) => {
-    // return a.charAt(n - 1)
-    return a[n-1]
+    return a.charAt(n - 1)
+    // return a[n-1]
 }
 
 console.log(nthCharOfString('abcd', 1));
