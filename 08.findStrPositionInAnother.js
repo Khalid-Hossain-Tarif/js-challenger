@@ -1,4 +1,4 @@
-<!--Find the position of one string in another 08.findStrPositionInAnother-->
+<!--Find the position of one string in another-->
 <!--Write a function that takes a string as argument. The string contains the substring 'is'. Return the index of 'is'.-->
 
 const findStrPosition = (a) => {
