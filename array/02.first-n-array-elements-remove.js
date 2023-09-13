@@ -5,6 +5,6 @@ const firstNarrayElementRemove = (a) => {
     return a.splice(3);
 }
 
-console.log(firstNarrayElementRemove([1,2,3,4]));
-console.log(firstNarrayElementRemove([5,4,3,2,1,0]));
-console.log(firstNarrayElementRemove([99,1,1]));
+console.log(firstNarrayElementRemove([1,2,3,4])); //[4]
+console.log(firstNarrayElementRemove([5,4,3,2,1,0])); //[2,1,0]
+console.log(firstNarrayElementRemove([99,1,1])); //[]

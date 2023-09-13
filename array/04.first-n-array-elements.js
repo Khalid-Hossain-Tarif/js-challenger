@@ -5,6 +5,6 @@ const firstNarrayElements = (a) => {
     return a.slice(0, 3);
 }
 
-console.log(firstNarrayElements([1,2,3,4]));
-console.log(firstNarrayElements([5,4,3,2,1,0]));
-console.log(firstNarrayElements([99,1,1]));
+console.log(firstNarrayElements([1,2,3,4])); //[1,2,3]
+console.log(firstNarrayElements([5,4,3,2,1,0])); //[5,4,3]
+console.log(firstNarrayElements([99,1,1])); //[99,1,1]
