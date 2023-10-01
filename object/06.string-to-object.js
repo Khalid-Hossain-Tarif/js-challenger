@@ -2,7 +2,11 @@
 // Write a function that takes a string as argument. Create an object that has a property with key 'key' and a value equal to the string. Return the object.
 
 const stringToObject = (a) => {
-    return a.key = a;
+    return { key: a };
+
+    // const obj = {};
+    // obj.key = a;
+    // return obj
 }
 
 console.log(stringToObject('a')); //{key:'a'}
