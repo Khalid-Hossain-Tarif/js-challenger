@@ -5,6 +5,7 @@ const checkValueInSets = (set, val) => {
     return set;
 }
 
+
 console.log(checkValueInSets(new Set([1, 2, 3]), 2)); //true
 console.log(checkValueInSets(new Set([123]), 2)); //false
 console.log(checkValueInSets(new Set(['1', '2', '3']), '2')); //true
